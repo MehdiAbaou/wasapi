@@ -58,7 +58,7 @@ func (client *IAudioCaptureClient) GetBuffer() (data []byte, numFramesToRead uin
 		return
 	}
 
-	data = unsafe.Slice(buf, numFramesToRead)
+	data = unsafe.Slice(buf, numFramesToRead*8)
 
 	return
 }
