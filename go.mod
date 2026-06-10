@@ -1,4 +1,4 @@
-module github.com/cyberxnomad/wasapi
+module github.com/MehdiAbaou/wasapi
 
 go 1.21.0
 
