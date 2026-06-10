@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/cyberxnomad/wasapi/com"
+	"github.com/MehdiAbaou/wasapi/com"
 	"golang.org/x/sys/windows"
 )
 
